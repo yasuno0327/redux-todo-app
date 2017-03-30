@@ -1,0 +1,24 @@
+{
+  "name": "new_redux_todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yoshitomo Yasuno <yasunodayo@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --no-inline"
+  },
+  "devDependencies": {
+    "webpack": "^2.3.2",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0"
+  }
+}
